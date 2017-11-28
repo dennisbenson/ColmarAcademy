@@ -1,0 +1,133 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.mobile {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 0 24px;
+  text-transform: uppercase;
+}
+
+.logo span {
+  font-size: 1.2rem;
+}
+
+#colmar {
+  font-weight: 600;
+  color: #4c586f;
+}
+
+#academy {
+  color: #a2aab0;
+}
+
+nav {
+  margin-right: 24px;
+}
+
+nav li {
+  display: inline-flex;
+  list-style: none;
+  justify-content: center;
+  padding-right: 16px;
+}
+
+nav a {
+  color: #4c586f;
+  text-decoration: none;
+}
+
+
+.banner {
+  background-color: #ebeced;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 60%;
+  height: auto;
+  padding: 32px 24px;
+}
+
+.banner-image img, .main-content img {
+  width: 100%;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  padding: 32px 24px;
+}
+
+.banner-content h1 {
+  font-size: 3.5em;
+  color: #3e3e3b;
+  margin: 0;
+}
+
+.banner-content h3 {
+  font-weight: 400;
+  color: #a2aab0;
+}
+
+.banner-content a {
+  text-align: center;
+  color: #ebeced;
+  text-decoration: none;
+  background-color: #4c586f;
+  width: 60%;
+  padding: 15px 0;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+
+.info {
+  display: flex;
+  width: 100%;
+}
+
+.main-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px;
+}
+
+.main-content h1 {
+  font-size: 3.5em;
+  color: #3e3e3b;
+  padding: 32px 0 24px 0;
+  margin: 0;
+}
+
+.main-content p {
+  color: #a2aab0;
+  line-height: 1.8;
+  font-size: 1.2rem;
+}
+
+.main-content p {
+  color: #a2aab0;
+  line-height: 1.8;
+  font-size: 1.2rem;
+}
