@@ -3,7 +3,9 @@ html {
   font-size: 16px;
 }
 
-.mobile {
+.courses-container-mobile,
+.mobile-secondary-content,
+.mobile  {
   display: none;
 }
 
@@ -43,6 +45,18 @@ nav li {
   list-style: none;
   justify-content: center;
   padding-right: 16px;
+  font-size: .8rem;
+}
+
+.signin {
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: #4c586f;
+  color: white;
+}
+
+.signin:hover {
+  background-color: #637392;
 }
 
 nav a {
@@ -61,7 +75,7 @@ nav a {
 .banner-image {
   width: 60%;
   height: auto;
-  padding: 32px 24px;
+  padding: 32px 12px 32px 24px;
 }
 
 .banner-image img, .main-content img {
@@ -73,7 +87,7 @@ nav a {
   flex-direction: column;
   justify-content: center;
   width: 40%;
-  padding: 32px 24px;
+  padding: 32px 12px;
 }
 
 .banner-content h1 {
@@ -100,6 +114,9 @@ nav a {
   margin-top: 25px;
 }
 
+.banner-content a:hover {
+  background-color: #637392;
+}
 
 .info {
   display: flex;
@@ -114,20 +131,163 @@ nav a {
 }
 
 .main-content h1 {
-  font-size: 3.5em;
+  font-size: 3em;
   color: #3e3e3b;
   padding: 32px 0 24px 0;
   margin: 0;
 }
 
-.main-content p {
+.main-content p, .main-content span, .video-content p {
   color: #a2aab0;
-  line-height: 1.8;
-  font-size: 1.2rem;
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
-.main-content p {
+.secondary-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ebeced;
+  padding-top: 16px;
+
+}
+
+.info-container {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+.info-container img {
+  margin: 16px;
+  width: 35%;
+}
+
+.info-text {
+  width: 65%;
+}
+
+.info-text h3 {
+  color: #3e3e3b;
+  font-size: 1.5rem;
+}
+
+.info-text p {
+  padding: 8px 0;
+}
+
+.info-text a {
+  color: #678ed8;
+  text-decoration: none;
+}
+
+.info-container:nth-child(-n+2) {
+  border-bottom: 1px solid #ebeced;
+}
+
+.info-container:hover {
+  background-color: #ebeced;
+}
+
+.courses {
+  background-color: #ebeced;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.courses h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #3e3e3b;
+  padding-top: 32px;
+  margin: 0;
+
+}
+
+.courses-container {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 32px 72px;
+}
+
+.course-box {
+  width: 280px;
+  background-color: white;
+  margin: 16px;
+}
+
+.course-box img {
+  width: 100%;
+}
+
+.course-text {
+  padding: 16px;
+  color: #3e3e3b;
+}
+
+.course-text span {
+  font-weight: 200;
+}
+
+.course-text p {
+  line-height: 1.5;
+  font-size: .9rem;
   color: #a2aab0;
-  line-height: 1.8;
-  font-size: 1.2rem;
+}
+
+
+.exhibit {
+  width: 100%;
+}
+
+.exhibit h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #3e3e3b;
+  padding: 32px 0;
+  margin: 0;
+
+}
+
+.exhibit-container {
+  display: inline-flex;
+}
+
+.video-content  {
+  width: 60%;
+  margin: 0 24px 24px 24px;
+}
+
+video {
+  width: 100%;
+}
+
+.video-content h3 {
+  color: #3e3e3b;
+  font-size: 1.5rem;
+}
+
+.other-exhibits {
+  width: 40%;
+}
+
+footer {
+  border-top: 1px solid lightgrey;
+  padding: 16px 24px 32px 24px;
+  color: #a2aab0;
+  font-size: .8rem;
+}
+
+footer a {
+  padding: 0 16px;
+  float: right;
+  color: #a2aab0;
+  text-decoration: none;
+}
+
+
+@@media only screen and () {
+
 }
